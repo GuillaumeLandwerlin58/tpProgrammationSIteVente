@@ -30,8 +30,7 @@ const ProductFilter = ({categories, onChange}:Props) => {
                                 ))}
                             </Group>
                         </Checkbox.Group>
-                <Button onClick={function noRefCheck(){}}
-                        variant="primary" type="submit">Filtrer</Button>
+                <Button variant="primary" type="submit">Filtrer</Button>
         </form>
     )
 }
